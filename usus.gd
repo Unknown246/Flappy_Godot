@@ -17,7 +17,8 @@ func _physics_process(delta):
 	else: 
 		move_and_slide(Vector2(40000, veltical_speed)*delta)
 	
-	
+	if transform.origin.y > 300:
+		get_tree().reload_current_scene()
 	
 	
 
