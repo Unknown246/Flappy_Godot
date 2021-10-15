@@ -17,4 +17,6 @@ func _physics_process(delta):
 		add_child(pipe_instance)
 		
 	score = max(0,playerpos-pipe_make_offset)/pipe_offset
+	$"/root/Global".best_score=max (score,$"/root/Global".best_score)
 	$Camera2D/Label.text = str(score)
+	$Camera2D/Label2.text = str($"/root/Global".best_score)

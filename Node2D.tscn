@@ -25,3 +25,16 @@ margin_bottom = -71.7669
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Label2" type="Label" parent="Camera2D"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -33.4333
+margin_top = 54.6436
+margin_right = 116.566
+margin_bottom = 133.644
+__meta__ = {
+"_edit_use_anchors_": false
+}
