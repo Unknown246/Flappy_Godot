@@ -15,7 +15,7 @@ func _physics_process(delta):
 	if(test_move(transform,Vector2(5000, veltical_speed)*delta/10)):
 		get_tree().reload_current_scene()
 	else: 
-		move_and_slide(Vector2(50000, veltical_speed)*delta)
+		move_and_slide(Vector2(40000, veltical_speed)*delta)
 	
 	
 	
